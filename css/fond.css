@@ -1,0 +1,109 @@
+/* main{
+    color: gray;
+    font-size: 40px;
+    text-align: center;
+    text-decoration:none;
+   
+}
+#title{
+    color: dodgerblue;
+    font-variant-caps: small-caps;
+    
+}
+p{
+    text-align: left;
+}
+.modified-body{
+    
+    background-color:cyan
+}
+ul{
+    list-style-image:"none"
+}
+li{
+    text-decoration: none;
+    font-variant-caps: small-caps;    
+    color:teal;
+    border-radius: 20% 3px black;
+    background-color: lightslategray;
+    list-style-type:none
+   
+}
+
+
+/* INDEX.HTML */
+@media only screen and (max-width: 600px) {
+    body {background-color: lightblue;}
+  }
+.firstBody{
+    background-color: darkseagreen;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+header{
+    height: 100vh;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;;
+}
+ul{
+    list-style-type:none;
+}
+
+a{
+    
+    text-decoration:none;
+    font-variant-caps: small-caps;
+    border-radius: 20% 3px black;
+    color:teal;
+    
+}
+
+}
+
+/* Table.html    */
+
+.secondbody{
+    background-color: teal;
+    color:black;
+
+}
+table, th, td {
+    border: 1px solid black;
+  }
+table {
+border-collapse: inherit;
+width: 100%;
+}
+
+th {
+height: 50px;
+}
+
+
+/* Form.html */
+.thirdBody{
+    background-color: chocolate;
+    color: white
+
+}
+input {
+    width: 100%;
+  }
+
+
+
+
+
+
+.modified-body{
+    font-size-adjust: inherit;
+    background-color: lightblue;
+    font-variant-caps: titling-caps;
+    
+  }
+
